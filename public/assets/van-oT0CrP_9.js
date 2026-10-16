@@ -1,0 +1,1 @@
+var e=`/assets/van-DiKBqnTj.png`;export{e as t};

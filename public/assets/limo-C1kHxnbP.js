@@ -1,0 +1,1 @@
+var e=`/assets/limo-D2WpX9aQ.png`;export{e as t};

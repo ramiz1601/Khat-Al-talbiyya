@@ -1,0 +1,8 @@
+{
+  "name": "Khat Al Talbiyya Transportation",
+  "description": "Premium delivery services, passenger transport, executive limousine, and logistics fleet solutions across Qatar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

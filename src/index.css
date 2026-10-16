@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: oklch(68% 0.13 80);
+  --color-gold-hover: oklch(62% 0.14 78);
+  --color-gold-light: oklch(92% 0.05 85);
+  --color-ink: oklch(20% 0.01 60);
+  --color-ink-muted: oklch(40% 0.01 60);
+  --color-paper: oklch(97.8% 0.006 90);
+  --color-border: oklch(92.9% 0.013 255.508);
+  --font-display: 'Anton', -apple-system, BlinkMacSystemFont, Impact, sans-serif;
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+:root {
+  --gold: oklch(68% 0.13 80);
+  --ink: oklch(20% 0.01 60);
+  --paper: oklch(97.8% 0.006 90);
+  --border: oklch(92.9% 0.013 255.508);
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+.grain {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.12) 1px, transparent 0);
+  background-size: 3px 3px;
+}
+
+.hero-ease {
+  transition: all 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1efe9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4cebe;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b5ad98;
+}
